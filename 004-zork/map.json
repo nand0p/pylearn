@@ -1,0 +1,29 @@
+{
+  "0": {
+    "x": 10,
+    "y": 10,
+    "name": "dungeon",
+    "description": "You stand in the main room of an old, dark dungeon. This is a grim and foreboding place, steeped in an aura of dread and despair.",
+    "items": [
+      "sword",
+      "key"
+    ]
+  },
+  "1": {
+    "x": 10,
+    "y": 9,
+    "name": "long tunnel",
+    "description": "You are in a narrow passageway that is dark, dank, and ominous. The walls are made of rough stone and earth, with patches of moss and slime. The tunnel is lit by the dim flicker ofan old lantern hanging on the wall, casting eerie shadows along the walls.",
+    "items": [
+      "torch",
+      "shovel"
+    ]
+  },
+  "2": {
+    "x": 10,
+    "y": 8,
+    "name": "tunnel entrance",
+    "description": "The air is thick with a musty smell, and the sounds of dripping water and scurrying creatures echo throughout the space. The tunnel twists and turns to the south, leading deeper into the dungeon\"s depths. A sense of mystery and danger embodies all who dare to venture inside.",
+    "items": null
+  }
+}
