@@ -1,11 +1,29 @@
+from random import randrange
 import requests
 import hashlib
 import base64
 import os
 import re
 
-
-key = "imagining despair in yellow"
+key = 'topless pinup girls'
+#key = 'metallic robots arguing in a bright abstract style'
+#key = 'bright shiny metallic robots eating meat on a train'
+#key = 'bright shiny metallic robots eating meat on top of a mountain trail'
+#key = 'dinosaurs epic battle in abstract bright metallic style'
+#key = 'robots eating humans in abstract bright metallic style'
+#key = 'construction robots in abstract bright metallic sytle'
+#key = 'desert landscape in abstract bright metallic style'
+#key = 'inner-city landscape right at night in abstract bright metallic style'
+#key = 'post-apocalyptic landscape in abstract bright metallic style'
+#key = 'post-apocalyptic landscape'
+#key = 'nuclear winter'
+#key = 'climate change predictions'
+#key = 'tell the truth'
+#key = 'fight the law'
+#key = 'speaking up'
+#key = 'motorcycle wipeout flying sparks'
+#key = 'city noise at night in hard rain'
+#key = 'imagining despair in yellow'
 #key = 'the moment of enlightenment'
 #key = 'shimmering sunset over the gates of hell'
 #key = 'blind ambition in red'  # XXX
@@ -35,13 +53,6 @@ model_out = re.sub('[^0-9a-zA-Z]+', '_', model)
 bearer_token = "Bearer " + token
 debug = False
 
-if not os.path.exists(data_dir):
-  os.makedirs(data_dir)
-if not os.path.exists(data_dir + model_out):
-  os.makedirs(data_dir + model_out)
-if not os.path.exists(data_dir + model_out + dir_out):
-  os.makedirs(data_dir + model_out + dir_out)
-
 j_post = { "model": model,
            "prompt": key,
            "negative_prompt": "",
@@ -49,7 +60,7 @@ j_post = { "model": model,
            "height": 1024,
            "steps": 40,
            "n": 4, 
-           "seed": 472 }
+           "seed": randrange(1000) }
 
 j_headers = { "Authorization": bearer_token }
 
@@ -62,6 +73,13 @@ if r.status_code != 200:
 else:
   print('API Success: ', r.status_code)
 
+if not os.path.exists(data_dir):
+  os.makedirs(data_dir)
+if not os.path.exists(data_dir + model_out):
+  os.makedirs(data_dir + model_out)
+if not os.path.exists(data_dir + model_out + dir_out):
+  os.makedirs(data_dir + model_out + dir_out)
+
 j = r.json()
 images = j.get('choices')
 
@@ -70,13 +88,13 @@ if debug:
   print('j: ', j)
   print('images: ', images)
 
-print(j.get('id'),
-      j.get('object'),
-      j.get('created'),
-      j.get('model'),
-      j.get('prompt'),
-      j.get('logprobs'),
-      j.get('index'))
+print('id: ', j.get('id'))
+print('object: ', j.get('object'))
+print('created: ', j.get('created'))
+print('model: ', j.get('model'))
+print('prompt: ', j.get('prompt'))
+print('logprobs: ', j.get('logprobs'))
+print('index: ', j.get('index'))
 
 print('--> processing: ' + file_out)
 for image_dict in images:
