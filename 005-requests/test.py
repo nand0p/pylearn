@@ -5,10 +5,7 @@ import os
 import re
 
 
-key = "imagining despair in yellow"
-#key = 'the moment of enlightenment'
-#key = 'shimmering sunset over the gates of hell'
-#key = 'blind ambition in red'  # XXX
+key = 'ants feeding on carcass'
 #key = 'scorpion crawling out of a shoe'
 #key = 'man pushing elephant on a swing'
 #key = 'helicopter crashing landing into very large hot tub'
@@ -28,7 +25,6 @@ if not token:
 
 endpoint = 'https://api.together.xyz/v1/completions'
 data_dir = '../data/art/'
-file_ext = '.jpg'
 file_out = re.sub('[^0-9a-zA-Z]+', '_', key)
 dir_out = '/' + file_out + '/'
 model_out = re.sub('[^0-9a-zA-Z]+', '_', model)
@@ -57,11 +53,6 @@ r = requests.post(endpoint,
                   json=j_post,
                   headers=j_headers)
 
-if r.status_code != 200:
-  raise RuntimeError('API Response ' + str(r.status_code) + ' body: ' + r.text)
-else:
-  print('API Success: ', r.status_code)
-
 j = r.json()
 images = j.get('choices')
 
@@ -81,6 +72,10 @@ print(j.get('id'),
 print('--> processing: ' + file_out)
 for image_dict in images:
   for image_b in image_dict.values():
+
+    if debug:
+      print(image_b)
+
     if isinstance(image_b, str):
 
       image_data = base64.b64decode(image_b)
@@ -93,7 +88,7 @@ for image_dict in images:
                      file_out,
                      '_',
                      md5Hashed,
-                     file_ext ]
+                     '.png' ]
 
       print('----> writing: %r ' % ''.join(image_file))
       with open(''.join(image_file), "wb") as fh:
