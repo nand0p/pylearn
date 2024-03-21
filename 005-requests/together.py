@@ -5,7 +5,10 @@ import base64
 import os
 import re
 
-key = 'topless pinup girls'
+key = 'abstract world map in shiny metallic style'
+#key = 'demonic children of hell praying in graveyard'
+#key = 'hard rain inner city working girls'
+#key = 'exploding star in abstract metallic style'
 #key = 'metallic robots arguing in a bright abstract style'
 #key = 'bright shiny metallic robots eating meat on a train'
 #key = 'bright shiny metallic robots eating meat on top of a mountain trail'
