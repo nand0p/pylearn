@@ -5,38 +5,8 @@ import base64
 import os
 import re
 
-key = 'abstract world map in shiny metallic style'
-#key = 'demonic children of hell praying in graveyard'
-#key = 'hard rain inner city working girls'
-#key = 'exploding star in abstract metallic style'
-#key = 'metallic robots arguing in a bright abstract style'
-#key = 'bright shiny metallic robots eating meat on a train'
-#key = 'bright shiny metallic robots eating meat on top of a mountain trail'
-#key = 'dinosaurs epic battle in abstract bright metallic style'
-#key = 'robots eating humans in abstract bright metallic style'
-#key = 'construction robots in abstract bright metallic sytle'
-#key = 'desert landscape in abstract bright metallic style'
-#key = 'inner-city landscape right at night in abstract bright metallic style'
-#key = 'post-apocalyptic landscape in abstract bright metallic style'
-#key = 'post-apocalyptic landscape'
-#key = 'nuclear winter'
-#key = 'climate change predictions'
-#key = 'tell the truth'
-#key = 'fight the law'
-#key = 'speaking up'
-#key = 'motorcycle wipeout flying sparks'
-#key = 'city noise at night in hard rain'
-#key = 'imagining despair in yellow'
-#key = 'the moment of enlightenment'
-#key = 'shimmering sunset over the gates of hell'
-#key = 'blind ambition in red'  # XXX
-#key = 'scorpion crawling out of a shoe'
-#key = 'man pushing elephant on a swing'
-#key = 'helicopter crashing landing into very large hot tub'
-#key = 'cathedral scene spanish civil war shootout'
-#key = 'railroad scene spanish civil war shootout'
-#key = 'desert scene with camels and robotic vultures'
 
+key = 'pierced tattooed jeweled gangster octopus'
 
 
 model = 'stabilityai/stable-diffusion-xl-base-1.0'
@@ -54,16 +24,21 @@ file_out = re.sub('[^0-9a-zA-Z]+', '_', key)
 dir_out = '/' + file_out + '/'
 model_out = re.sub('[^0-9a-zA-Z]+', '_', model)
 bearer_token = "Bearer " + token
+seed = randrange(10000)
+width = 1024
+height = 1024
+steps = 40
+count = 3
 debug = False
 
 j_post = { "model": model,
            "prompt": key,
            "negative_prompt": "",
-           "width": 1024,
-           "height": 1024,
-           "steps": 40,
-           "n": 4, 
-           "seed": randrange(1000) }
+           "width": width,
+           "height": height,
+           "steps": steps,
+           "n": count,
+           "seed": seed }
 
 j_headers = { "Authorization": bearer_token }
 
@@ -74,7 +49,9 @@ r = requests.post(endpoint,
 if r.status_code != 200:
   raise RuntimeError('API Response ' + str(r.status_code) + ' body: ' + r.text)
 else:
+  print()
   print('API Success: ', r.status_code)
+  print()
 
 if not os.path.exists(data_dir):
   os.makedirs(data_dir)
@@ -91,15 +68,21 @@ if debug:
   print('j: ', j)
   print('images: ', images)
 
+print('endpoint: ', endpoint)
+print('model: ', model)
 print('id: ', j.get('id'))
 print('object: ', j.get('object'))
 print('created: ', j.get('created'))
-print('model: ', j.get('model'))
-print('prompt: ', j.get('prompt'))
-print('logprobs: ', j.get('logprobs'))
-print('index: ', j.get('index'))
-
+print()
+print('seed: ', seed)
+print('count: ', count)
+print('steps: ', steps)
+print('width: ', width)
+print('height: ', height)
+print()
 print('--> processing: ' + file_out)
+print()
+
 for image_dict in images:
   for image_b in image_dict.values():
     if isinstance(image_b, str):
