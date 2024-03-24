@@ -5,8 +5,10 @@ import json
 import sys
 import os
 
-data_tree='../data'
-s3_bucket='art.hex7.com'
+key = 'art'
+
+data_tree='../data/' + key
+s3_bucket=key + '.hex7.com'
 s3_client = boto3.client('s3')
 s3_resource = boto3.resource('s3')
 s3_list = []

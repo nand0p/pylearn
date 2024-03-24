@@ -6,12 +6,11 @@ import os
 import re
 
 
-key = 'pierced tattooed jeweled gangster octopus'
+key = 'art'
 
 
 model = 'stabilityai/stable-diffusion-xl-base-1.0'
 #model = 'codellama/CodeLlama-70b-Python-hf'
-
 
 token = os.environ.get('META_KEY')
 if not token:
