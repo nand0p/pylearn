@@ -3,7 +3,7 @@ import boto3
 import time
 
 
-key = 'reaper'
+key = 'tanks'
 
 
 debug = False
@@ -93,7 +93,8 @@ change = { 'Changes': [ {
                'AliasTarget': {
                  'HostedZoneId': s3_zone,
                  'DNSName': s3_dns,
-                 'EvaluateTargetHealth': True } } } ] }
+                 'EvaluateTargetHealth': False } } } ] }
+
 print('change: ', change)
 
 rez = r53_client.change_resource_record_sets(

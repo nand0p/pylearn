@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Global Think Tanks</title>
+</head>
+<body>
+<center>
+<h1>Global Think Tanks</h1>
+<p>
+<br>
+<p>
+<h3>{{ header }}</h3>
+<p>
+<br>
+<p>
+{% if debug %}
+ <p>{{ tank_raw }}</p>
+ <p>{{ tank_data }}</p>
+{% endif %}
+<table border=2>
+  <tr>
+    <td>
+      <b>Institution</b>
+    </td>
+    <td align=center>
+      <b>Index</b>
+    </td>
+    <td align=center>
+      <b>Location</b>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=3 align=center>.</td>
+  </tr>
+
+{% for tank in tank_list %}
+  <tr>
+    <td>{{ tank.split('_')[1] }}</td>
+    <td align=center><b>{{ tank_data[tank]['score'] }}</b></td>
+    <td align=center>{{ tank_data[tank]['country'] }}</td>
+  </tr>
+{% endfor %}
+
+</table>
+data provided by claude.ai
+<p>
+<br>
+<p>
+<a href=https://github.com/nand0p/pylearn>https://github.com/nand0p/pylearn</a>
+<br>
+{{ revision }}
+<br>
+{{ datemade }}
+</body>
+</html>
