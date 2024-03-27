@@ -13,6 +13,7 @@ app = Flask(__name__)
 parser = ArgumentParser()
 parser.add_argument('--source', type=str, default='claude', help='select ai source')
 parser.add_argument('--debug', action='store_true', help='debug')
+parser.add_argument('--template', type=str, default='ai.html', help='jinja template')
 parser.add_argument('--port', type=int, default=80, help='tcp port')
 args = parser.parse_args()
 
@@ -143,7 +144,7 @@ def route_get_tank():
 def route_root():
   j2_file_loader = FileSystemLoader('templates')
   j2_env = Environment(loader=j2_file_loader)
-  j2_template = j2_env.get_template('index.html')
+  j2_template = j2_env.get_template(args.template)
   j2_rendered = j2_template.render(header=header,
                                    tank_raw=tank_raw,
                                    tank_data=tank_data,

@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Global Think Tanks</title>
+</head>
+<body>
+<center>
+<h1><a href=/>Global Think Tanks</a></h1>
+<p>
+<br>
+<p>
+<h2>{{ header }}</h2>
+<p>
+<a href=http://tanks.hex7.com/claude.html>Claude answers</a>
+<p>
+<a href=http://tanks.hex7.com/gemini.html>Gemini answers</a>
+<p>
+<br>
+<p>
+
+{% if debug %}
+ <hr><p>tanks_raw: {{ tank_raw }}</p>
+ <hr><p>tank_data: {{ tank_data }}</p>
+ <hr><p>tank_list: {{ tank_list }}</p>
+ <hr><p>source: {{ source }}</p>
+ <p>debug: {{ debug }}</p>
+{% endif %}
+<table border=2>
+  <tr>
+    <td>
+      <b>Institution</b>
+    </td>
+    <td align=center>
+      <b>Score</b>
+    </td>
+    <td align=center>
+      <b>Location</b>
+    </td>
+    <td align=center>
+      <b>Description</b>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=4 align=center>.</td>
+  </tr>
+
+{% for tank in tank_list %}
+  <tr>
+    <td>{{ tank.split('_')[1] }}</td>
+    <td align=center><b>{{ tank_data[tank]['score'] }}</b></td>
+    <td align=center>{{ tank_data[tank]['location'] }}</td>
+    <td align=center>{{ tank_data[tank]['desc'] }}</td>
+  </tr>
+{% endfor %}
+
+</table>
+data provided by {{ source }} ai
+<p>
+<br>
+<p>
+<a href=https://github.com/nand0p/pylearn>https://github.com/nand0p/pylearn</a>
+<br>
+{{ revision }}
+<br>
+{{ datemade }}
+</body>
+</html>
