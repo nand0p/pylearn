@@ -13,8 +13,11 @@
 <br>
 <p>
 {% if debug %}
- <p>{{ tank_raw }}</p>
- <p>{{ tank_data }}</p>
+ <hr><p>tanks_raw: {{ tank_raw }}</p>
+ <hr><p>tank_data: {{ tank_data }}</p>
+ <hr><p>tank_list: {{ tank_list }}</p>
+ <hr><p>source: {{ source }}</p>
+ <p>debug: {{ debug }}</p>
 {% endif %}
 <table border=2>
   <tr>
@@ -22,26 +25,30 @@
       <b>Institution</b>
     </td>
     <td align=center>
-      <b>Index</b>
+      <b>Score</b>
     </td>
     <td align=center>
       <b>Location</b>
     </td>
+    <td align=center>
+      <b>Description</b>
+    </td>
   </tr>
   <tr>
-    <td colspan=3 align=center>.</td>
+    <td colspan=4 align=center>.</td>
   </tr>
 
 {% for tank in tank_list %}
   <tr>
     <td>{{ tank.split('_')[1] }}</td>
     <td align=center><b>{{ tank_data[tank]['score'] }}</b></td>
-    <td align=center>{{ tank_data[tank]['country'] }}</td>
+    <td align=center>{{ tank_data[tank]['location'] }}</td>
+    <td align=center>{{ tank_data[tank]['desc'] }}</td>
   </tr>
 {% endfor %}
 
 </table>
-data provided by claude.ai
+data provided by {{ source }} ai
 <p>
 <br>
 <p>

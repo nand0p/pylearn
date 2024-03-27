@@ -1,0 +1,105 @@
+0 - extreme liberal
+100 - extreme conservative
+Bruegel (Belgium): 50 (Center-leaning)
+RAND Corporation (United States): 60 (Center-right)
+Center for Strategic and International Studies (CSIS, United States): 55 (Center-right)
+Carnegie Endowment for International Peace (United States): 40 (Center-left)
+Chatham House (United Kingdom): 50 (Center-leaning)
+International Institute for Strategic Studies (IISS, United Kingdom): 55 (Center-right)
+Peterson Institute for International Economics (PIIE, United States): 50 (Center-leaning)
+Center for American Progress (CAP, United States): 30 (Center-left)
+The Heritage Foundation (United States): 80 (Center-right to right)
+Fraser Institute (Canada): 90 (Right-wing)
+Bruegel (Belgium): 45 (Center-leaning) - Focuses on economic policy and leans slightly center-left on some issues like social welfare.
+RAND Corporation (United States): 65 (Center-right) - Receives funding from various sources, including the US military, influencing a security focus with some center-left leanings on social issues.
+Center for Strategic and International Studies (CSIS, United States): 60 (Center-right) - Similar to RAND, leans center-right on foreign policy and security but might have some center-left voices on domestic issues.
+Carnegie Endowment for International Peace (United States): 35 (Center-left) - Known for promoting diplomacy and global cooperation, with a center-left tilt on social issues.
+Chatham House (United Kingdom): 40 (Center-leaning) - Focuses on international affairs and strives for neutrality, though some research might lean slightly center-left.
+International Institute for Strategic Studies (IISS, United Kingdom): 50 (Center-leaning) - Analyzes security issues and aims for objectivity, although some experts might have center-right leanings.
+Peterson Institute for International Economics (PIIE, United States): 45 (Center-leaning) - Promotes free trade and open markets, with a center-leaning approach to economic policy.
+Center for American Progress (CAP, United States): 20 (Center-left) - Advocates for progressive policies on social justice, education, and healthcare.
+The Heritage Foundation (United States): 90 (Right-wing) - Promotes conservative values on all issues, including limited government, free markets, and a strong military.
+Fraser Institute (Canada): 95 (Right-wing) - A strong advocate for free markets, limited government intervention, and individual liberty.
+Brookings Institution (United States): 35 (Center-left) - Leans center-left, focusing on social welfare, economic development, and global governance.
+Stiftung Wissenschaft und Politik (SWP, Germany): 50 (Center-leaning) - German think tank known for its balanced analysis of international relations.
+Lowy Institute (Australia): 50 (Center-leaning) - Focuses on Asia-Pacific affairs and generally maintains a neutral stance.
+Center for Global Development (CGD, United States): 40 (Center-left) - Promotes policies to reduce poverty and inequality in developing countries.
+Centre for International Governance Innovation (CIGI, Canada): 50 (Center-leaning) - Focuses on global governance issues with a center-leaning bent.
+Mori Memorial Foundation Initiative for Japan (MMFJ, Japan): 55 (Center-right) - Promotes public policy research in Japan, with some center-right tendencies.
+Russian International Affairs Council (RIAC, Russia): 80 (Center-right to right) - Seen as close to the Russian government, promoting a nationalist and conservative viewpoint.
+Observer Research Foundation (ORF, India): 50 (Center-leaning) - Focuses on Indian foreign policy and security issues, generally maintaining a center-leaning stance.
+Institute for National Strategic Studies (INSS, Israel): 70 (Center-right) - Affiliated with the Israeli military, focusing on security issues in the Middle East with a center-right perspective.
+Istituto Affari Internazionali (IAI, Italy): 50 (Center-leaning) - Focuses on international affairs and Italian foreign policy, striving for a neutral stance.
+Kiel Institute for the World Economy (IfW Kiel, Germany): 50 (Center-leaning) - A German economic research institute known for its analysis on global economic trends and international trade.
+German Institute of Global and Area Studies (GIGA, Germany): 55 (Center-right) - A German research institute focusing on global affairs and regional studies, with a center-right lean on some security issues.
+Center for European Policy Studies (CEPS, Belgium): 40 (Center-left) - A think tank focusing on European Union (EU) policy issues, often advocating for further integration with a center-left tilt.
+Istituto Nazionale per gli Studi di Politica Internazionale (ISPI, Italy): 50 (Center-leaning) - An Italian institute specializing in international relations, striving for a neutral stance in its research.
+Royal Institute of International Affairs (RIIA, United Kingdom): 50 (Center-leaning) - A British think tank focused on international affairs and global governance, aiming for neutrality in its research.
+Stockholm International Peace Research Institute (SIPRI, Sweden): 50 (Center-leaning) - A Swedish institute known for its research on military expenditures, disarmament, and arms control, maintaining a center-leaning approach.
+Norwegian Institute of International Affairs (NUPI, Norway): 50 (Center-leaning) - A Norwegian institute specializing in international relations and security issues, striving to present balanced research.
+Egmont Institute (Belgium): 50 (Center-leaning) - A Belgian institute for international relations, known for its analysis on European foreign policy and security issues, aiming for a neutral stance.
+Center for Strategic and International Studies (CSIS, Indonesia): 50 (Center-leaning) - An Indonesian think tank focusing on Southeast Asian affairs and security issues, maintaining a center-leaning perspective.
+S. Rajaratnam School of International Studies (RSIS, Singapore): 55 (Center-right) - A Singaporean institute for international affairs known for its research on security issues in Asia, with a center-right lean.
+Carnegie India (India): 40 (Center-left) - Promotes democracy and development in South Asia, with a center-left tilt.
+Centre for Policy Studies (CPS, United Kingdom): 50 (Center-leaning) - A British think tank focusing on domestic policy issues in the UK, striving for a neutral stance in its research.
+Center for International Development at Harvard University (CID Harvard, United States): 40 (Center-left) - Conducts research on global poverty and development, with a center-left lean.
+Overseas Development Institute (ODI, United Kingdom): 40 (Center-left) - Focuses on international development and global poverty reduction, with a center-left perspective.
+Istituto Affari Internazionali (IAI, Italy): 50 (Center-leaning) - Focuses on international affairs and Italian foreign policy, striving for a neutral stance.
+Brookings Institution Doha Center (BI Doha, Qatar): 40 (Center-left) - Conducts research on Middle Eastern policy issues, with a center-left lean.
+German Development Institute (DIE, Germany): 50 (Center-leaning) - Focuses on development policy and global governance issues, generally maintaining a center-leaning stance.
+Center for Applied Economic Research (CAER, Vietnam): 50 (Center-leaning) - A Vietnamese institute that conducts research on economic policy and development issues, striving for a neutral stance.
+Institute for Defence Studies and Analyses (IDSA, India): 60 (Center-right) - An Indian think tank focused on security and strategic issues, with a center-right lean.
+Council on Foreign Relations (CFR, United States): 50 (Center-leaning) - A prominent U.S. think tank focused on international affairs, generally maintaining a center-leaning stance in its research.
+Lowy Institute for International Policy (Australia): 50 (Center-leaning) - Focuses on Asia-Pacific affairs and generally maintains a neutral stance.
+Center for Strategic and International Studies (CSIS, Indonesia): 50 (Center-leaning) - An Indonesian think tank focusing on Southeast Asian affairs and security issues, maintaining a center-leaning perspective.
+Istituto Affari Internazionali (IAI), Italy: 50 (Center-leaning) - Focuses on international affairs and Italian foreign policy, striving for a neutral stance.
+German Institute of Global and Area Studies (GIGA, Germany): 55 (Center-right) - A German research institute focusing on global affairs and regional studies, with a center-right lean on some security issues.
+S. Rajaratnam School of International Studies (RSIS, Singapore): 55 (Center-right) - A Singaporean institute for international affairs known for its research on security issues in Asia, with a center-right lean.
+Egmont Institute (Belgium): 50 (Center-leaning) - A Belgian institute for international relations, known for its analysis on European foreign policy and security issues, aiming for a neutral stance.
+Royal Institute of International Affairs (RIIA, United Kingdom): 50 (Center-leaning) - A British think tank focused on international affairs and global governance, aiming for neutrality in its research.
+Stockholm International Peace Research Institute (SIPRI, Sweden): 50 (Center-leaning) - A Swedish institute known for its research on military expenditures, disarmament, and arms control, maintaining a center-leaning approach.
+Norwegian Institute of International Affairs (NUPI, Norway): 50 (Center-leaning) - A Norwegian institute specializing in international relations and security issues, striving to present balanced research.
+Kiel Institute for the World Economy (IfW Kiel, Germany): 50 (Center-leaning) - A German economic research institute known for its analysis on global economic trends and international trade.
+Center for International Governance Innovation (CIGI, Canada): 50 (Center-leaning) - Focuses on global governance issues with a center-leaning bent.
+Observer Research Foundation (ORF, India): 50 (Center-leaning) - Focuses on Indian foreign policy and security issues, generally maintaining a center-leaning stance.
+Institute for National Strategic Studies (INSS, Israel): 70 (Center-right) - Affiliated with the Israeli military, focusing on security issues in the Middle East with a center-right perspective.
+Stiftung Wissenschaft und Politik (SWP, Germany): 50 (Center-leaning) - German think tank known for its balanced analysis of international relations.
+Brookings Institution (United States): 35 (Center-left) - Leans center-left, focusing on social welfare, economic development, and global governance.
+Center for Global Development (CGD, United States): 40 (Center-left) - Promotes policies to reduce poverty and inequality in developing countries.
+Mori Memorial Foundation Initiative for Japan (MMFJ, Japan): 55 (Center-right) - Promotes public policy research in Japan, with some center-right tendencies.
+Russian International Affairs Council (RIAC, Russia): 80 (Center-right to right) - Seen as close to the Russian government, promoting a nationalist and conservative viewpoint.
+Centre for European Policy Studies (CEPS, Belgium): 40 (Center-left) - A think tank focusing on European Union (EU) policy issues, often advocating for further integration with a center-left tilt.
+Istituto Nazionale per gli Studi di Politica Internazionale (ISPI, Italy): 50 (Center-leaning) - An Italian institute specializing in international relations, striving for a neutral stance in its research.
+Atlantic Council (United States): 50 (Center-leaning) - Focuses on international affairs and global security, aiming for a nonpartisan approach but with some center-leaning tendencies on social issues.
+Istituto Affari Internazionali (IAI, Italy): 50 (Center-leaning) - Focuses on international affairs and Italian foreign policy, striving for a neutral stance. (duplicated entry, but included for completeness)
+Lee Kuan Yew School of Public Policy (LKYSPP, Singapore): 55 (Center-right) - A Singaporean institute focused on public policy in Asia, with a center-right lean.
+German Development Institute (DIE, Germany): 50 (Center-leaning) - Conducts research on development policy and global governance issues, generally maintaining a center-leaning stance. (duplicated entry, but included for completeness)
+Overseas Development Institute (ODI, United Kingdom): 40 (Center-left) - Focuses on international development and global poverty reduction, with a center-left perspective. (duplicated entry, but included for completeness)
+Bruegel (Belgium): 50 (Center-leaning) - Focuses on economic policy and leans slightly center-left on some issues like social welfare. (duplicated entry, but included for completeness)
+Center for Strategic and International Studies (CSIS, United States): 60 (Center-right) - Receives funding from various sources, including the US military, influencing a security focus with some center-left leanings on social issues. (duplicated entry, but included for completeness)
+Carnegie Endowment for International Peace (United States): 40 (Center-left) - Known for promoting diplomacy and global cooperation, with a center-left tilt on social issues. (duplicated entry, but included for completeness)
+Chatham House (United Kingdom): 50 (Center-leaning) - Focuses on international affairs and strives for neutrality, though some research might lean slightly center-left. (duplicated entry, but included for completeness)
+Peterson Institute for International Economics (PIIE, United States): 45 (Center-leaning) - Promotes free trade and open markets, with a center-leaning approach to economic policy. (duplicated entry, but included for completeness)
+
+World Resources Institute (WRI, United States): 50 (Center-leaning) - Focuses on environmental sustainability and resource management, striving for a neutral approach but with some center-leaning policy recommendations.
+Overseas Development Institute (ODI, United Kingdom): 40 (Center-left) - Conducts research on international development and global poverty reduction, with a center-left perspective (included before, but relevant here too).
+Center for International Environmental Law (CIEL, United States): 40 (Center-left) - Advocates for legal solutions to environmental challenges, with a center-left tilt.
+Center for Global Development (CGD, United States): 40 (Center-left) - Promotes policies to reduce poverty and inequality in developing countries (included before, but relevant here too).
+Istituto Affari Internazionali (IAI, Italy): 50 (Center-leaning) - Focuses on international affairs and Italian foreign policy, striving for a neutral stance (included before, but relevant here too).
+Chatham House (United Kingdom): 50 (Center-leaning) - Focuses on international affairs and strives for neutrality, though some research might lean slightly center-left (included before, but relevant here too).
+Stiftung Wissenschaft und Politik (SWP, Germany): 50 (Center-leaning) - German think tank known for its balanced analysis of international relations (included before, but relevant here too).
+
+
+Institute for New Economic Thinking (INET, United States): 60 (Center-left) - Focuses on alternative economic models and challenges free-market orthodoxy, with a center-left perspective.
+Institute for Policy Studies (IPS, Sri Lanka): 40 (Center-left) - A Sri Lankan think tank focused on social and economic development issues in South Asia, with a center-left lean.
+Centre for Applied Public Policy Research (CAPPR, India): 40 (Center-left) - An Indian think tank that conducts research on social policy and governance issues, with a center-left tilt.
+Center for Slavic, Eurasian and East European Studies (CSEEES, Japan): 50 (Center-leaning) - A Japanese research institute focusing on political and economic developments in Eastern Europe and Eurasia, striving for a neutral stance.
+Korea Development Institute (KDI, South Korea): 50 (Center-leaning) - A South Korean government-funded think tank that conducts research on economic development issues, generally maintaining a center-leaning approach.
+Institute of Southeast Asian Studies (ISEAS, Singapore): 50 (Center-leaning) - A Singaporean institute focused on political, social, and economic trends in Southeast Asia, aiming for a neutral stance in its research.
+Taiwanese Public Policy Social Innovation Platform (NPSSI, Taiwan): 50 (Center-leaning) - A Taiwanese platform that promotes innovative solutions to social challenges, generally maintaining a center-leaning perspective.
+Lagos Business School (LBS, Nigeria): 50 (Center-leaning) - A Nigerian business school that conducts research on economic development and business practices in Africa, striving for a neutral stance.
+Brennan Center for Justice (BCJ, United States): 40 (Center-left) - Advocates for democratic reforms and fair elections in the United States, with a center-left lean.
+Center for Public Integrity (CPI, United States): 40 (Center-left) - Focuses on investigative journalism and exposing government corruption, with a center-left tilt.
+Centre for Applied Macroeconomic Analysis (CAMA, Australia): 55 (Center-right) - An Australian institute focusing on economic and fiscal policy issues, with a center-right lean.
+Institute for Fiscal Studies (IFS, United Kingdom): 50 (Center-leaning) - A British institute for economic research, known for its analysis of public finances and social policy, striving for a neutral stance.
+Institute for Development Studies (IDS, United Kingdom): 40 (Center-left) - A British institute focused on development studies and poverty reduction strategies, with a center-left perspective.

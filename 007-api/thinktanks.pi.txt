@@ -1,0 +1,12 @@
+0 - extreme liberal
+100 - extreme conservative
+Brookings Institution (50 - centrist)
+Heritage Foundation (90 - conservative)
+Council on Foreign Relations (60 - center-right)
+Cato Institute (40 - libertarian)
+Center for Strategic and International Studies (55 - center-right)
+Carnegie Endowment for International Peace (45 - center-left)
+RAND Corporation (50 - centrist)
+Hudson Institute (75 - conservative)
+American Enterprise Institute (80 - conservative)
+Atlantic Council (60 - center-right)
