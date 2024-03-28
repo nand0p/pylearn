@@ -1,0 +1,31 @@
+<html>
+<head>
+<link rel="shortcut icon" href="favicon.ico">
+<title> {{ key }}.hex7.com</title>
+</head>
+
+<body>
+<h1>{{ key }}.hex7.com</h1>
+
+{% for image in s3_list %}
+  <img src=http://{{ key }}.hex7.com/{{ image }}>
+  <br>{{ image.split('/')[-1].split('_')[0:-1] | join(' ') }}<p>
+{% endfor %}
+<p>
+<center>
+<h1> HAPPY BIRTHDAY SEVERO</h1>
+<b>{{ count }} dinosaurs</b>
+
+
+<p>
+<br>
+<p>
+<a href=https://github.com/nand0p/pylearn>https://github.com/nand0p/pylearn</a>
+
+<br>
+{{ revision }}
+<br>
+{{ datemade }}
+
+</body>
+</html>
