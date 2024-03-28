@@ -1,11 +1,11 @@
 #!/bin/bash -ex
 
-COUNT_KEY=20
+COUNT_KEY=50
 COUNT_GENERATION=2
-SOURCE_FILE=dino.txt
+SOURCE_FILE=dino2.txt
 TOTAL=0
 
-echo running with ${SOURCE_FILE} count: $COUNT_KEY gen: ${COUNT_GENERATION}
+echo running with ${SOURCE_FILE} count: ${COUNT_KEY} gen: ${COUNT_GENERATION}
 
 cat ${SOURCE_FILE} | while read KEY; do
   echo "---> iterating ${KEY}"
@@ -22,5 +22,5 @@ cat ${SOURCE_FILE} | while read KEY; do
 done
 echo
 echo
-echo success. ${TOTAL} images created.
+echo "success. ${TOTAL} images created."
 echo

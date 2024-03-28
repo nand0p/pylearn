@@ -59,7 +59,7 @@ html = j2_template.render(s3_list=s3_list,
 with open('tmp/' + args.template, 'w') as f:
   f.write(html)
 
-print('--------------> upload index html file')
+print('--------> upload index html file')
 rez_upload = s3_client.upload_file(Filename='tmp/index.html',
                                    Bucket=s3_bucket,
                                    Key='index.html',

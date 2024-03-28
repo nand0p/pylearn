@@ -49,6 +49,10 @@ if args.upload:
                                                ExtraArgs = {'ACL': 'public-read' })
             if args.debug:
               print('response: ', rez_upload)
+        else:
+          print('EXISTS. skipping.')
+        finally:
+          print()
 
 if not os.path.exists('tmp/'):
   os.makedirs('tmp/')
